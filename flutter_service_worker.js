@@ -28,10 +28,10 @@ const RESOURCES = {
 "icons/apple-touch-icon.png": "1c10e4473210fb924cf54bf6e9e3424a",
 "icons/Icon-192.png": "8a6b4038b09d7c9612eeba8996f6c79c",
 "icons/Icon-512.png": "3120c8765a898e94d31750e179d21c85",
-"index.html": "461c0a4f34b9c17b1e0ed3e2efedf33a",
-"/": "461c0a4f34b9c17b1e0ed3e2efedf33a",
+"index.html": "b35db62db2523d20036c7739551cf5d8",
+"/": "b35db62db2523d20036c7739551cf5d8",
 "logo.png": "9d93b65ae878a50a67dc9e572d00a716",
-"main.dart.js": "7d3ecea03adbb62595351d19efd0ecae",
+"main.dart.js": "25b216eddc87473b2b02b068f42ef7a5",
 "manifest.json": "b92ab9f56fc81a939d5f11029c3aa580",
 "version.json": "6276dd4855c04b308298793ec8e98522"
 };
