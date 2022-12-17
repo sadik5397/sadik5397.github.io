@@ -70891,7 +70891,7 @@ case 6:case 5:return A.H(null,r)}})
 return A.I($async$aJ,r)},
 am(){this.aC()
 this.aJ()},
-H(a){var s="All Buildings",r=A.a(["Building Name","Status","Unique ID","Total Flats","Action"],t.s),q=A.a([6,2,2,2,2],t.t),p=this.e.length,o=p===0?B.dc:A.lF(new A.a8v(this),p,B.C,null,!1)
+H(a){var s="All Buildings",r=A.a(["Building Name","Status","Unique ID","Total Flats","Actions"],t.s),q=A.a([6,2,2,2,2],t.t),p=this.e.length,o=p===0?B.dc:A.lF(new A.a8v(this),p,B.C,null,!1)
 return A.kl(A.mD(A.fP(o,p,q,16,r,!0,12,new A.a8w(a),"Add New",null,"Add New",s),a,"All Registered Buildings",!1,s))},
 aba(a,b,c,d,e){var s,r=null,q=17976931348623157e292,p=b.M(t.w).f.a.a/2-200,o=J.aG(a),n=t.p
 o=A.ca(A.a([B.wa,A.dV(o.h(a,"name"),A.dc(r,r,B.ap,r,r,r,r,r,r,r,r,18,r,r,B.l,r,r,!0,r,r,r,r,r,r,r,r),r),B.bG,B.HO,A.dV(o.h(a,"phone"),A.dc(r,r,B.ap,r,r,r,r,r,r,r,r,36,r,r,B.bh,r,r,!0,r,r,r,r,r,r,r,r),r),B.fi,A.dV(o.h(a,"email"),A.dc(r,r,B.ap,r,r,r,r,r,r,r,r,18,r,r,B.l,r,r,!0,r,r,r,r,r,r,r,r),r),B.bG],n),B.x,B.y,B.ab)
@@ -71309,7 +71309,7 @@ return A.b6(this.b,!1).cU(r)},
 $S:0}
 A.afM.prototype={
 $2(a,b){var s=this.a,r=J.h(J.h(J.h(s.w,b),"user"),"name")
-return A.mC(A.a([A.jz(2,!1,null,J.h(J.h(J.h(s.w,b),"user"),"email"),r),A.tL(B.aP,2,"Flat Owner: F5"),A.kY(B.bp,1,"Active"),A.jy(B.ds,new A.afB(s,a,b),"Change Password")],t.p),b)},
+return A.mC(A.a([A.jz(2,!1,null,J.h(J.h(J.h(s.w,b),"user"),"email"),r),A.tL(B.aP,2,"Flat Owner"),A.kY(B.bp,1,"Active"),A.jy(B.ds,new A.afB(s,a,b),"Change Password")],t.p),b)},
 $S:20}
 A.afB.prototype={
 $0(){var s=this.a
@@ -72113,13 +72113,13 @@ s.toString
 return this.a.d=s},
 $S:0}
 A.ag2.prototype={
-$2(a,b){var s,r,q="role",p=this.a,o=J.Z(J.h(J.h(p.e,b),"name"))
-if(J.h(J.h(p.e,b),q)==null)s="N/A"
-else{s=J.Z(J.h(J.h(J.h(p.e,b),q),q))
-s=A.ahL(A.fo(s,"_"," "))}o=A.jz(3,!1,null,"Role: "+s,o)
+$2(a,b){var s,r,q="role",p="phone",o=this.a,n=J.Z(J.h(J.h(o.e,b),"name"))
+if(J.h(J.h(o.e,b),q)==null)s="N/A"
+else{s=J.Z(J.h(J.h(J.h(o.e,b),q),q))
+s=A.ahL(A.fo(s,"_"," "))}n=A.jz(3,!1,null,"Role: "+s,n)
 s=A.kY(B.bp,1,"Active")
-r=A.i(J.h(J.h(p.e,b),"email"))
-return A.mC(A.a([o,s,A.jz(3,!0,null,"Phone: "+A.i(J.h(J.h(p.e,b),"phone")),"Email: "+r),A.jy(B.ds,new A.ag1(p,a,b),"Change Password")],t.p),b)},
+r=A.i(J.h(J.h(o.e,b),"email"))
+return A.mC(A.a([n,s,A.jz(3,!0,null,"Phone: "+A.i(J.e(J.h(J.h(o.e,b),p),"00000000000")||J.e(J.h(J.h(o.e,b),p),"___________")?"":J.h(J.h(o.e,b),p)),"Email: "+r),A.jy(B.ds,new A.ag1(o,a,b),"Change Password")],t.p),b)},
 $S:20}
 A.ag1.prototype={
 $0(){var s=this.a
