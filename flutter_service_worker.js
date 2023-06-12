@@ -3,15 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "62d5b309766803222978f589168a5e54",
-"assets/AssetManifest.smcbin": "6669b98680fb65e410acac4979e59ac8",
+const RESOURCES = {"assets/AssetManifest.json": "f91c36e4782cb59d6db77ca6ebb23150",
+"assets/AssetManifest.smcbin": "ac95a7f2651f7599081a3488b8cd8927",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "0a75640ec900cc512b76a1c9805cdfbf",
-"assets/NOTICES": "3c8e89e95cd4828a802d036664dfb53b",
+"assets/NOTICES": "aeeb815b71618a34a2816b78ba543c91",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "60114762957c6a50d2e0cd7d2c5b7b98",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
+"assets/packages/youtube_player_iframe/assets/player.html": "dc7a0426386dc6fd0e4187079900aea8",
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
-"assets.zip": "974e0d22ede781e88dea5c1b7dac2c61",
 "canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
 "canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
 "canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
@@ -25,9 +25,9 @@ const RESOURCES = {"assets/AssetManifest.json": "62d5b309766803222978f589168a5e5
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e67529a7884b9868f57a7cb51f4d302c",
-"/": "e67529a7884b9868f57a7cb51f4d302c",
-"main.dart.js": "59e7785df6d5ad4e893d2fc2d3b08b49",
+"index.html": "b7503b3eb0f06cad85304d96343c6047",
+"/": "b7503b3eb0f06cad85304d96343c6047",
+"main.dart.js": "50b37760405ab3faec9064da154f3a80",
 "manifest.json": "5522cb4f91e8161b8c90254fce4fe519",
 "version.json": "ed744c101c276477c96abee9c05462b7"};
 // The application shell files that are downloaded before a service worker can
