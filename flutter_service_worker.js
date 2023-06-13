@@ -6,8 +6,8 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {"assets/AssetManifest.json": "f91c36e4782cb59d6db77ca6ebb23150",
 "assets/AssetManifest.smcbin": "ac95a7f2651f7599081a3488b8cd8927",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "0a75640ec900cc512b76a1c9805cdfbf",
-"assets/NOTICES": "aeeb815b71618a34a2816b78ba543c91",
+"assets/fonts/MaterialIcons-Regular.otf": "ce787d1ff2b733a6d1338711ee803683",
+"assets/NOTICES": "4c33a499edb3e0c3dca4b2015886ded9",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "60114762957c6a50d2e0cd7d2c5b7b98",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/packages/youtube_player_iframe/assets/player.html": "dc7a0426386dc6fd0e4187079900aea8",
@@ -25,11 +25,11 @@ const RESOURCES = {"assets/AssetManifest.json": "f91c36e4782cb59d6db77ca6ebb2315
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b7503b3eb0f06cad85304d96343c6047",
-"/": "b7503b3eb0f06cad85304d96343c6047",
-"main.dart.js": "50b37760405ab3faec9064da154f3a80",
-"manifest.json": "5522cb4f91e8161b8c90254fce4fe519",
-"version.json": "ed744c101c276477c96abee9c05462b7"};
+"index.html": "9a32255b6d3e67c2f891e89a5411b755",
+"/": "9a32255b6d3e67c2f891e89a5411b755",
+"main.dart.js": "934ee212ea201f079f6740e5f6451805",
+"manifest.json": "50dfde941df44eea92f0ca129a556989",
+"version.json": "d6dc624acd4e0b612dd99a45c8c6644e"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

@@ -1,6 +1,6 @@
 {
-    "name": "reqruitement_web",
-    "short_name": "reqruitement_web",
+    "name": "recruitment_web",
+    "short_name": "recruitment_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
