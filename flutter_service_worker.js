@@ -34,9 +34,9 @@ const RESOURCES = {"assets/AssetManifest.json": "b8fff7548c0317bf4eb7291db083fdb
 "icons/Icon-512.png": "f3fd633543221161ecc4fe00a4d4635b",
 "icons/Icon-maskable-192.png": "8378d8464b3a496f8f9f321a0d19fa56",
 "icons/Icon-maskable-512.png": "f3fd633543221161ecc4fe00a4d4635b",
-"index.html": "a3eef0858507d8ffc8094f80a5a6d019",
-"/": "a3eef0858507d8ffc8094f80a5a6d019",
-"main.dart.js": "afb4d3e2366b8f8e5d894e3456a9fc57",
+"index.html": "9842d36bb1ba0f269efbb2e1d9f53e13",
+"/": "9842d36bb1ba0f269efbb2e1d9f53e13",
+"main.dart.js": "9734aac03514a3f9eeecfd3988c69b57",
 "manifest.json": "11119a71003c05d2b1d7f04508651b37",
 "splash/img/dark-1x.png": "c623d8918bdc66f389dddd02965fa81a",
 "splash/img/dark-2x.png": "f23e2b7df885057b31b269ce968b78b1",
@@ -46,8 +46,7 @@ const RESOURCES = {"assets/AssetManifest.json": "b8fff7548c0317bf4eb7291db083fdb
 "splash/img/light-2x.png": "f23e2b7df885057b31b269ce968b78b1",
 "splash/img/light-3x.png": "8094127afde0a9dcf640141a50ef78c3",
 "splash/img/light-4x.png": "268f2688c9c8b06cca3981bce54c4a4f",
-"version.json": "d6dc624acd4e0b612dd99a45c8c6644e",
-"web.zip": "149950c3bfb822990f12384c4b1fc116"};
+"version.json": "d6dc624acd4e0b612dd99a45c8c6644e"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
