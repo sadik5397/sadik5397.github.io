@@ -1,0 +1,1788 @@
+{
+    "success": true,
+    "data": {
+        "district": [
+            {
+                "district_gcode": "00",
+                "district": "-"
+            },
+            {
+                "district_gcode": "04",
+                "district": "BARGUNA"
+            },
+            {
+                "district_gcode": "06",
+                "district": "BARISHAL"
+            },
+            {
+                "district_gcode": "09",
+                "district": "BHOLA"
+            },
+            {
+                "district_gcode": "42",
+                "district": "JHALOKATHI"
+            },
+            {
+                "district_gcode": "78",
+                "district": "PATUAKHALI"
+            },
+            {
+                "district_gcode": "79",
+                "district": "PIROJPUR"
+            },
+            {
+                "district_gcode": "03",
+                "district": "BANDARBAN"
+            },
+            {
+                "district_gcode": "12",
+                "district": "BRAHMANBARIA"
+            },
+            {
+                "district_gcode": "13",
+                "district": "CHANDPUR"
+            },
+            {
+                "district_gcode": "15",
+                "district": "CHATTOGRAM"
+            },
+            {
+                "district_gcode": "19",
+                "district": "CUMILLA"
+            },
+            {
+                "district_gcode": "22",
+                "district": "COX'S BAZAR"
+            },
+            {
+                "district_gcode": "30",
+                "district": "FENI"
+            },
+            {
+                "district_gcode": "46",
+                "district": "KHAGRACHHARI"
+            },
+            {
+                "district_gcode": "51",
+                "district": "LAKSHMIPUR"
+            },
+            {
+                "district_gcode": "75",
+                "district": "NOAKHALI"
+            },
+            {
+                "district_gcode": "84",
+                "district": "RANGAMATI"
+            },
+            {
+                "district_gcode": "26",
+                "district": "DHAKA"
+            },
+            {
+                "district_gcode": "29",
+                "district": "FARIDPUR"
+            },
+            {
+                "district_gcode": "33",
+                "district": "GAZIPUR"
+            },
+            {
+                "district_gcode": "35",
+                "district": "GOPALGANJ"
+            },
+            {
+                "district_gcode": "48",
+                "district": "KISHOREGANJ"
+            },
+            {
+                "district_gcode": "54",
+                "district": "MADARIPUR"
+            },
+            {
+                "district_gcode": "56",
+                "district": "MANIKGANJ"
+            },
+            {
+                "district_gcode": "59",
+                "district": "MUNSHIGANJ"
+            },
+            {
+                "district_gcode": "67",
+                "district": "NARAYANGANJ"
+            },
+            {
+                "district_gcode": "68",
+                "district": "NARSINGDI"
+            },
+            {
+                "district_gcode": "82",
+                "district": "RAJBARI"
+            },
+            {
+                "district_gcode": "86",
+                "district": "SHARIATPUR"
+            },
+            {
+                "district_gcode": "93",
+                "district": "TANGAIL"
+            },
+            {
+                "district_gcode": "39",
+                "district": "JAMALPUR"
+            },
+            {
+                "district_gcode": "61",
+                "district": "MYMENSINGH"
+            },
+            {
+                "district_gcode": "72",
+                "district": "NETROKONA"
+            },
+            {
+                "district_gcode": "89",
+                "district": "SHERPUR"
+            },
+            {
+                "district_gcode": "01",
+                "district": "BAGERHAT"
+            },
+            {
+                "district_gcode": "18",
+                "district": "CHUADANGA"
+            },
+            {
+                "district_gcode": "41",
+                "district": "JASHORE"
+            },
+            {
+                "district_gcode": "44",
+                "district": "JHENAIDAH"
+            },
+            {
+                "district_gcode": "47",
+                "district": "KHULNA"
+            },
+            {
+                "district_gcode": "50",
+                "district": "KUSHTIA"
+            },
+            {
+                "district_gcode": "55",
+                "district": "MAGURA"
+            },
+            {
+                "district_gcode": "57",
+                "district": "MEHERPUR"
+            },
+            {
+                "district_gcode": "65",
+                "district": "NARAIL"
+            },
+            {
+                "district_gcode": "87",
+                "district": "SATKHIRA"
+            },
+            {
+                "district_gcode": "10",
+                "district": "BOGURA"
+            },
+            {
+                "district_gcode": "38",
+                "district": "JOYPURHAT"
+            },
+            {
+                "district_gcode": "64",
+                "district": "NAOGAON"
+            },
+            {
+                "district_gcode": "69",
+                "district": "NATORE"
+            },
+            {
+                "district_gcode": "70",
+                "district": "CHAPAI NAWABGANJ"
+            },
+            {
+                "district_gcode": "76",
+                "district": "PABNA"
+            },
+            {
+                "district_gcode": "81",
+                "district": "RAJSHAHI"
+            },
+            {
+                "district_gcode": "88",
+                "district": "SIRAJGANJ"
+            },
+            {
+                "district_gcode": "27",
+                "district": "DINAJPUR"
+            },
+            {
+                "district_gcode": "32",
+                "district": "GAIBANDHA"
+            },
+            {
+                "district_gcode": "49",
+                "district": "KURIGRAM"
+            },
+            {
+                "district_gcode": "52",
+                "district": "LALMONIRHAT"
+            },
+            {
+                "district_gcode": "73",
+                "district": "NILPHAMARI"
+            },
+            {
+                "district_gcode": "77",
+                "district": "PANCHAGARH"
+            },
+            {
+                "district_gcode": "85",
+                "district": "RANGPUR"
+            },
+            {
+                "district_gcode": "94",
+                "district": "THAKURGAON"
+            },
+            {
+                "district_gcode": "36",
+                "district": "HABIGANJ"
+            },
+            {
+                "district_gcode": "58",
+                "district": "MOULVIBAZAR"
+            },
+            {
+                "district_gcode": "90",
+                "district": "SUNAMGANJ"
+            },
+            {
+                "district_gcode": "91",
+                "district": "SYLHET"
+            }
+        ],
+        "sex": [
+            {
+                "sex": "M",
+                "sex_name": "MALE"
+            },
+            {
+                "sex": "F",
+                "sex_name": "FEMALE"
+            },
+            {
+                "sex": "O",
+                "sex_name": "OTHERS"
+            },
+            {
+                "sex": "T",
+                "sex_name": "THIRD GENDER"
+            }
+        ],
+        "religion": [
+            {
+                "religion": "B",
+                "religion_name": "BUDDHIST"
+            },
+            {
+                "religion": "C",
+                "religion_name": "CHRISTIAN"
+            },
+            {
+                "religion": "H",
+                "religion_name": "HINDU"
+            },
+            {
+                "religion": "I",
+                "religion_name": "ISLAM"
+            },
+            {
+                "religion": "N",
+                "religion_name": "NONE"
+            },
+            {
+                "religion": "O",
+                "religion_name": "OTHERS"
+            }
+        ],
+        "married": [
+            {
+                "married": "M",
+                "married_name": "MARRIED"
+            },
+            {
+                "married": "U",
+                "married_name": "UNMARRIED"
+            },
+            {
+                "married": "D",
+                "married_name": "DIVORCED"
+            },
+            {
+                "married": "O",
+                "married_name": "OTHERS"
+            },
+            {
+                "married": "W",
+                "married_name": "WIDOW"
+            },
+            {
+                "married": "S",
+                "married_name": "SEPARATED"
+            }
+        ],
+        "blood_group": [
+            {
+                "blood_group": "A+"
+            },
+            {
+                "blood_group": "A-"
+            },
+            {
+                "blood_group": "AB+"
+            },
+            {
+                "blood_group": "AB-"
+            },
+            {
+                "blood_group": "B+"
+            },
+            {
+                "blood_group": "B-"
+            },
+            {
+                "blood_group": "O+"
+            },
+            {
+                "blood_group": "O-"
+            }
+        ],
+        "edu_qualification": [
+            {
+                "qualification": "14",
+                "qualification_name": "Graduate (Pass)/Fazil"
+            },
+            {
+                "qualification": "19",
+                "qualification_name": "Master of Philosophy"
+            },
+            {
+                "qualification": "0",
+                "qualification_name": "Others"
+            },
+            {
+                "qualification": "5",
+                "qualification_name": "Primary School Certificate"
+            },
+            {
+                "qualification": "8",
+                "qualification_name": "Junior School Certificate"
+            },
+            {
+                "qualification": "10",
+                "qualification_name": "Secondary School Certificate/O/Dakhil/Voc/Trade"
+            },
+            {
+                "qualification": "12",
+                "qualification_name": "Higher Secondary School Cert/A/Alim/Survey/Diploma"
+            },
+            {
+                "qualification": "13",
+                "qualification_name": "Diploma (Polytechnic)"
+            },
+            {
+                "qualification": "16",
+                "qualification_name": "Graduate (Hons)/Kamil"
+            },
+            {
+                "qualification": "17",
+                "qualification_name": "Post Graduate Diploma"
+            },
+            {
+                "qualification": "18",
+                "qualification_name": "Post Graduate/CMA/CA"
+            },
+            {
+                "qualification": "20",
+                "qualification_name": "Doctor Of Philosophy"
+            },
+            {
+                "qualification": "6",
+                "qualification_name": "Bachelor of Medicine and Bachelor of Surgery"
+            },
+            {
+                "qualification": "11",
+                "qualification_name": "Vocation Trade Course"
+            },
+            {
+                "qualification": "21",
+                "qualification_name": "Post Doctoral Research"
+            },
+            {
+                "qualification": "15",
+                "qualification_name": "CMA (Part) / CA (inter)"
+            }
+        ],
+        "edu_university": [
+            {
+                "university": "103",
+                "university_name": "Notre Dame University Bangladesh"
+            },
+            {
+                "university": "1",
+                "university_name": "Others"
+            },
+            {
+                "university": "36",
+                "university_name": "Pabna University of Science and Technology"
+            },
+            {
+                "university": "37",
+                "university_name": "Patuakhali Science And Technology University"
+            },
+            {
+                "university": "104",
+                "university_name": "Port City International University"
+            },
+            {
+                "university": "105",
+                "university_name": "Premier University"
+            },
+            {
+                "university": "106",
+                "university_name": "Presidency University"
+            },
+            {
+                "university": "107",
+                "university_name": "Prime University"
+            },
+            {
+                "university": "108",
+                "university_name": "Primeasia University"
+            },
+            {
+                "university": "109",
+                "university_name": "Pundra University of Science & Technology"
+            },
+            {
+                "university": "110",
+                "university_name": "Queens University"
+            },
+            {
+                "university": "111",
+                "university_name": "Rabindra Maitree University, Kushtia"
+            },
+            {
+                "university": "38",
+                "university_name": "Rabindra University, Bangladesh"
+            },
+            {
+                "university": "39",
+                "university_name": "Rajshahi Medical University"
+            },
+            {
+                "university": "112",
+                "university_name": "Rajshahi Science & Technology University (RSTU), Natore"
+            },
+            {
+                "university": "40",
+                "university_name": "Rajshahi University of Engineering & Technology"
+            },
+            {
+                "university": "113",
+                "university_name": "Ranada Prasad Shaha University"
+            },
+            {
+                "university": "41",
+                "university_name": "Rangamati Science and Technology University"
+            },
+            {
+                "university": "114",
+                "university_name": "Royal University of Dhaka"
+            },
+            {
+                "university": "115",
+                "university_name": "Rupayan A.K.M Shamsuzzoha University"
+            },
+            {
+                "university": "42",
+                "university_name": "Shahjalal University of Science & Technology"
+            },
+            {
+                "university": "116",
+                "university_name": "Shanto-Mariam University of Creative Technology"
+            },
+            {
+                "university": "117",
+                "university_name": "Sheikh Fazilatunnesa Mujib University"
+            },
+            {
+                "university": "43",
+                "university_name": "Sher-e-Bangla Agricultural University"
+            },
+            {
+                "university": "118",
+                "university_name": "Sonargaon University"
+            },
+            {
+                "university": "119",
+                "university_name": "Southeast University"
+            },
+            {
+                "university": "120",
+                "university_name": "Southern University Bangladesh"
+            },
+            {
+                "university": "121",
+                "university_name": "Stamford University Bangladesh"
+            },
+            {
+                "university": "122",
+                "university_name": "State University of Bangladesh"
+            },
+            {
+                "university": "44",
+                "university_name": "Sylhet Agricultural University"
+            },
+            {
+                "university": "123",
+                "university_name": "Sylhet International University"
+            },
+            {
+                "university": "124",
+                "university_name": "Tagore University of Creative Arts, Keranigonj, Bangladesh"
+            },
+            {
+                "university": "125",
+                "university_name": "The International University of Scholars"
+            },
+            {
+                "university": "126",
+                "university_name": "The Millennium University"
+            },
+            {
+                "university": "127",
+                "university_name": "The People's University of Bangladesh"
+            },
+            {
+                "university": "128",
+                "university_name": "The University of Asia Pacific"
+            },
+            {
+                "university": "129",
+                "university_name": "Times University, Bangladesh"
+            },
+            {
+                "university": "130",
+                "university_name": "United International University"
+            },
+            {
+                "university": "45",
+                "university_name": "University of Chittagong"
+            },
+            {
+                "university": "131",
+                "university_name": "University of Creative Technology, Chittagong"
+            },
+            {
+                "university": "132",
+                "university_name": "University of Development Alternative"
+            },
+            {
+                "university": "46",
+                "university_name": "University of Dhaka"
+            },
+            {
+                "university": "133",
+                "university_name": "University of Global Village"
+            },
+            {
+                "university": "134",
+                "university_name": "University of Information Technology & Sciences"
+            },
+            {
+                "university": "135",
+                "university_name": "University of Liberal Arts Bangladesh"
+            },
+            {
+                "university": "47",
+                "university_name": "University of Rajshahi"
+            },
+            {
+                "university": "136",
+                "university_name": "University of Science & Technology Chittagong"
+            },
+            {
+                "university": "137",
+                "university_name": "University of South Asia"
+            },
+            {
+                "university": "138",
+                "university_name": "Uttara University"
+            },
+            {
+                "university": "139",
+                "university_name": "Varendra University"
+            },
+            {
+                "university": "140",
+                "university_name": "Victoria University of Bangladesh"
+            },
+            {
+                "university": "141",
+                "university_name": "World University of Bangladesh"
+            },
+            {
+                "university": "142",
+                "university_name": "Z.H Sikder University of Science & Technology"
+            },
+            {
+                "university": "2",
+                "university_name": "None"
+            },
+            {
+                "university": "0",
+                "university_name": "Education Ministry"
+            },
+            {
+                "university": "146",
+                "university_name": "Bangladesh Agricultural University"
+            },
+            {
+                "university": "147",
+                "university_name": "Islamic University of Technology (IUT)"
+            },
+            {
+                "university": "149",
+                "university_name": "Bangabandhu Sheikh Mujibur Rahman Agricultural University"
+            },
+            {
+                "university": "150",
+                "university_name": "Dhaka University"
+            },
+            {
+                "university": "145",
+                "university_name": "Chittagong University"
+            },
+            {
+                "university": "148",
+                "university_name": "Rajshahi University"
+            },
+            {
+                "university": "151",
+                "university_name": "Saitama University Japan"
+            },
+            {
+                "university": "152",
+                "university_name": "Bangladesh Institute of Technology (BIT)"
+            },
+            {
+                "university": "12",
+                "university_name": "Barisal Board"
+            },
+            {
+                "university": "10",
+                "university_name": "Chattogram Board"
+            },
+            {
+                "university": "9",
+                "university_name": "Cumilla Board"
+            },
+            {
+                "university": "5",
+                "university_name": "Dhaka Board"
+            },
+            {
+                "university": "8",
+                "university_name": "Dinajpur Board"
+            },
+            {
+                "university": "6",
+                "university_name": "Jashore Board"
+            },
+            {
+                "university": "4",
+                "university_name": "Madrasah Board"
+            },
+            {
+                "university": "7",
+                "university_name": "Rajshahi Board"
+            },
+            {
+                "university": "11",
+                "university_name": "Sylhet Board"
+            },
+            {
+                "university": "3",
+                "university_name": "Bangladesh Technical Education Board"
+            },
+            {
+                "university": "53",
+                "university_name": "ASA University Bangladesh"
+            },
+            {
+                "university": "48",
+                "university_name": "Ahsanullah University of Science and Technology"
+            },
+            {
+                "university": "49",
+                "university_name": "American International University, Bangladesh"
+            },
+            {
+                "university": "50",
+                "university_name": "Anwer Khan Modern University"
+            },
+            {
+                "university": "51",
+                "university_name": "Army University of Engineering and Technology (BAUET), Qadirabad"
+            },
+            {
+                "university": "52",
+                "university_name": "Army University of Science and Technology(BAUST), Saidpur"
+            },
+            {
+                "university": "54",
+                "university_name": "Asian University of Bangladesh"
+            },
+            {
+                "university": "55",
+                "university_name": "Atish Dipankar University of Science & Technology"
+            },
+            {
+                "university": "61",
+                "university_name": "BGC Trust University Bangladesh"
+            },
+            {
+                "university": "62",
+                "university_name": "BGMEA University of Fashion & Technology(BUFT)"
+            },
+            {
+                "university": "63",
+                "university_name": "BRAC University"
+            },
+            {
+                "university": "13",
+                "university_name": "Bangabandhu Sheikh Mujibur Rahman Science & Technology University"
+            },
+            {
+                "university": "56",
+                "university_name": "Bangladesh Army International University of Science & Technology (BAIUST), Comilla"
+            },
+            {
+                "university": "57",
+                "university_name": "Bangladesh Islami University"
+            },
+            {
+                "university": "14",
+                "university_name": "Bangladesh Open University"
+            },
+            {
+                "university": "58",
+                "university_name": "Bangladesh University"
+            },
+            {
+                "university": "59",
+                "university_name": "Bangladesh University of Business & Technology"
+            },
+            {
+                "university": "15",
+                "university_name": "Bangladesh University of Engineering & Technology (BUET)"
+            },
+            {
+                "university": "60",
+                "university_name": "Bangladesh University of Health Sciences"
+            },
+            {
+                "university": "16",
+                "university_name": "Bangladesh University of Professionals"
+            },
+            {
+                "university": "17",
+                "university_name": "Bangladesh University of Textiles"
+            },
+            {
+                "university": "18",
+                "university_name": "Barisal University"
+            },
+            {
+                "university": "19",
+                "university_name": "Begum Rokeya University"
+            },
+            {
+                "university": "64",
+                "university_name": "Britannia University"
+            },
+            {
+                "university": "66",
+                "university_name": "CCN University of Science & Technology"
+            },
+            {
+                "university": "65",
+                "university_name": "Canadian University of Bangladesh"
+            },
+            {
+                "university": "67",
+                "university_name": "Central University of Science and Technology"
+            },
+            {
+                "university": "68",
+                "university_name": "Central Women's University"
+            },
+            {
+                "university": "20",
+                "university_name": "Chattogram University of Engineering & Technology (CUET)"
+            },
+            {
+                "university": "21",
+                "university_name": "Chattogram Veterinary and Animal Sciences University"
+            },
+            {
+                "university": "69",
+                "university_name": "Chittagong Independent University"
+            },
+            {
+                "university": "70",
+                "university_name": "City University"
+            },
+            {
+                "university": "71",
+                "university_name": "Cox's Bazar International University"
+            },
+            {
+                "university": "22",
+                "university_name": "Cumilla University"
+            },
+            {
+                "university": "72",
+                "university_name": "Daffodil International University"
+            },
+            {
+                "university": "73",
+                "university_name": "Dhaka International University"
+            },
+            {
+                "university": "23",
+                "university_name": "Dhaka University of Engineering & Technology (DUET)"
+            },
+            {
+                "university": "74",
+                "university_name": "East Delta University"
+            },
+            {
+                "university": "75",
+                "university_name": "East West University"
+            },
+            {
+                "university": "76",
+                "university_name": "Eastern University"
+            },
+            {
+                "university": "143",
+                "university_name": "Engineering & Survey Institute, Rajshahi"
+            },
+            {
+                "university": "144",
+                "university_name": "Enginering & Survey Institute, Cumilla"
+            },
+            {
+                "university": "77",
+                "university_name": "European University of Bangladesh"
+            },
+            {
+                "university": "78",
+                "university_name": "Exim Bank Agricultural University, Bangladesh"
+            },
+            {
+                "university": "79",
+                "university_name": "Fareast International University"
+            },
+            {
+                "university": "80",
+                "university_name": "Feni University"
+            },
+            {
+                "university": "81",
+                "university_name": "First Capital University of Bangladesh"
+            },
+            {
+                "university": "82",
+                "university_name": "German University Bangladesh"
+            },
+            {
+                "university": "83",
+                "university_name": "Global University Bangladesh"
+            },
+            {
+                "university": "84",
+                "university_name": "Gono Bishwabidyalay"
+            },
+            {
+                "university": "85",
+                "university_name": "Green University of Bangladesh"
+            },
+            {
+                "university": "24",
+                "university_name": "Hajee Mohammad Danesh Science & Technology University"
+            },
+            {
+                "university": "86",
+                "university_name": "Hamdard University Bangladesh"
+            },
+            {
+                "university": "87",
+                "university_name": "IBAIS University"
+            },
+            {
+                "university": "88",
+                "university_name": "Independent University, Bangladesh"
+            },
+            {
+                "university": "89",
+                "university_name": "International Islamic University, Chattogram"
+            },
+            {
+                "university": "90",
+                "university_name": "International University of Business Agriculture & Technology"
+            },
+            {
+                "university": "91",
+                "university_name": "Ishakha International University, Bangladesh"
+            },
+            {
+                "university": "25",
+                "university_name": "Islamic Arabic University"
+            },
+            {
+                "university": "26",
+                "university_name": "Islamic University"
+            },
+            {
+                "university": "27",
+                "university_name": "Jagannath University"
+            },
+            {
+                "university": "28",
+                "university_name": "Jahangirnagar University"
+            },
+            {
+                "university": "30",
+                "university_name": "Jashore University of Science & Technology"
+            },
+            {
+                "university": "29",
+                "university_name": "Jatiya Kabi Kazi Nazrul Islam University"
+            },
+            {
+                "university": "31",
+                "university_name": "Khulna University"
+            },
+            {
+                "university": "32",
+                "university_name": "Khulna University of Engineering & Technology"
+            },
+            {
+                "university": "92",
+                "university_name": "Khwaja Yunus Ali University"
+            },
+            {
+                "university": "93",
+                "university_name": "Leading University"
+            },
+            {
+                "university": "94",
+                "university_name": "Manarat International University"
+            },
+            {
+                "university": "33",
+                "university_name": "Mawlana Bhashani Science & Technology University"
+            },
+            {
+                "university": "95",
+                "university_name": "Metropolitan University"
+            },
+            {
+                "university": "96",
+                "university_name": "N.P.I University of Bangladesh"
+            },
+            {
+                "university": "34",
+                "university_name": "National University"
+            },
+            {
+                "university": "35",
+                "university_name": "Noakhali Science & Technology University"
+            },
+            {
+                "university": "97",
+                "university_name": "North Bengal International University"
+            },
+            {
+                "university": "98",
+                "university_name": "North East University Bangladesh"
+            },
+            {
+                "university": "99",
+                "university_name": "North South University"
+            },
+            {
+                "university": "100",
+                "university_name": "North Western University"
+            },
+            {
+                "university": "101",
+                "university_name": "Northern University Bangladesh"
+            },
+            {
+                "university": "102",
+                "university_name": "Northern University of Business & Technology, Khulna"
+            }
+        ],
+        "edu_decipline": [
+            {
+                "subject": "12",
+                "subject_name": "Pharmacy"
+            },
+            {
+                "subject": "13",
+                "subject_name": "Management"
+            },
+            {
+                "subject": "14",
+                "subject_name": "Business Studies"
+            },
+            {
+                "subject": "15",
+                "subject_name": "Botany"
+            },
+            {
+                "subject": "16",
+                "subject_name": "Mechanical Engineering"
+            },
+            {
+                "subject": "17",
+                "subject_name": "Computer Science"
+            },
+            {
+                "subject": "18",
+                "subject_name": "Electrical And Electronic Engineering"
+            },
+            {
+                "subject": "19",
+                "subject_name": "Environmental Science"
+            },
+            {
+                "subject": "20",
+                "subject_name": "Finance"
+            },
+            {
+                "subject": "21",
+                "subject_name": "Finance And Banking"
+            },
+            {
+                "subject": "22",
+                "subject_name": "Bangla"
+            },
+            {
+                "subject": "23",
+                "subject_name": "Biochemistry"
+            },
+            {
+                "subject": "24",
+                "subject_name": "Biological Science"
+            },
+            {
+                "subject": "25",
+                "subject_name": "Economics"
+            },
+            {
+                "subject": "26",
+                "subject_name": "English"
+            },
+            {
+                "subject": "27",
+                "subject_name": "Geography"
+            },
+            {
+                "subject": "28",
+                "subject_name": "Geography And Environment"
+            },
+            {
+                "subject": "29",
+                "subject_name": "Geological Science"
+            },
+            {
+                "subject": "30",
+                "subject_name": "Geology"
+            },
+            {
+                "subject": "31",
+                "subject_name": "Humanities"
+            },
+            {
+                "subject": "32",
+                "subject_name": "Information Technology"
+            },
+            {
+                "subject": "33",
+                "subject_name": "Life Science"
+            },
+            {
+                "subject": "159",
+                "subject_name": "Water Science and Engineering"
+            },
+            {
+                "subject": "11",
+                "subject_name": "Architecture"
+            },
+            {
+                "subject": "44",
+                "subject_name": "Management"
+            },
+            {
+                "subject": "45",
+                "subject_name": "Agriculture"
+            },
+            {
+                "subject": "46",
+                "subject_name": "Agri Economics"
+            },
+            {
+                "subject": "47",
+                "subject_name": "Accounting & Information System"
+            },
+            {
+                "subject": "48",
+                "subject_name": "Agricultural Engineering"
+            },
+            {
+                "subject": "49",
+                "subject_name": "Applied Physics And Electronics"
+            },
+            {
+                "subject": "50",
+                "subject_name": "Arabic"
+            },
+            {
+                "subject": "51",
+                "subject_name": "Business Management"
+            },
+            {
+                "subject": "53",
+                "subject_name": "Cost & Management"
+            },
+            {
+                "subject": "54",
+                "subject_name": "Home Economics"
+            },
+            {
+                "subject": "55",
+                "subject_name": "Homeopathy"
+            },
+            {
+                "subject": "56",
+                "subject_name": "Horticulture"
+            },
+            {
+                "subject": "58",
+                "subject_name": "Food Technology"
+            },
+            {
+                "subject": "60",
+                "subject_name": "Agriculture & Fisheries Engineering"
+            },
+            {
+                "subject": "61",
+                "subject_name": "Agronomy"
+            },
+            {
+                "subject": "62",
+                "subject_name": "Biological & Environmental Science"
+            },
+            {
+                "subject": "63",
+                "subject_name": "Biotechnology"
+            },
+            {
+                "subject": "64",
+                "subject_name": "Building Consttruction"
+            },
+            {
+                "subject": "67",
+                "subject_name": "Forestry"
+            },
+            {
+                "subject": "68",
+                "subject_name": "Hydro & Water Resources"
+            },
+            {
+                "subject": "154",
+                "subject_name": "Education"
+            },
+            {
+                "subject": "5",
+                "subject_name": "Computer Science & Engineering"
+            },
+            {
+                "subject": "9",
+                "subject_name": "Humanities"
+            },
+            {
+                "subject": "2",
+                "subject_name": "Arts"
+            },
+            {
+                "subject": "3",
+                "subject_name": "Commerce"
+            },
+            {
+                "subject": "4",
+                "subject_name": "Civil Engineering"
+            },
+            {
+                "subject": "6",
+                "subject_name": "Accounting"
+            },
+            {
+                "subject": "7",
+                "subject_name": "Graphics Design"
+            },
+            {
+                "subject": "8",
+                "subject_name": "Multimedia"
+            },
+            {
+                "subject": "10",
+                "subject_name": "Public Administration"
+            },
+            {
+                "subject": "52",
+                "subject_name": "Chartered Accountant"
+            },
+            {
+                "subject": "57",
+                "subject_name": "Building Maintenance"
+            },
+            {
+                "subject": "59",
+                "subject_name": "Electrical Technology"
+            },
+            {
+                "subject": "65",
+                "subject_name": "Food Engineering"
+            },
+            {
+                "subject": "66",
+                "subject_name": "Fisheries"
+            },
+            {
+                "subject": "69",
+                "subject_name": "Development Studies"
+            },
+            {
+                "subject": "107",
+                "subject_name": "Wood Work"
+            },
+            {
+                "subject": "108",
+                "subject_name": "Welding Work"
+            },
+            {
+                "subject": "109",
+                "subject_name": "Water Management"
+            },
+            {
+                "subject": "111",
+                "subject_name": "Electrical"
+            },
+            {
+                "subject": "112",
+                "subject_name": "Type & Shorthand"
+            },
+            {
+                "subject": "114",
+                "subject_name": "Statistics"
+            },
+            {
+                "subject": "117",
+                "subject_name": "Secretarial Science"
+            },
+            {
+                "subject": "119",
+                "subject_name": "Mechanical Technology"
+            },
+            {
+                "subject": "120",
+                "subject_name": "Music"
+            },
+            {
+                "subject": "121",
+                "subject_name": "Mobile"
+            },
+            {
+                "subject": "86",
+                "subject_name": "Electrical & House Wiring"
+            },
+            {
+                "subject": "83",
+                "subject_name": "Draftsmanship"
+            },
+            {
+                "subject": "87",
+                "subject_name": "Industrial & Production Engineering"
+            },
+            {
+                "subject": "88",
+                "subject_name": "General Electric Works"
+            },
+            {
+                "subject": "101",
+                "subject_name": "Urban And Regional Planning"
+            },
+            {
+                "subject": "102",
+                "subject_name": "Soil, Water & Environment"
+            },
+            {
+                "subject": "157",
+                "subject_name": "Infrastructure Management"
+            },
+            {
+                "subject": "158",
+                "subject_name": "Water and Costal Management"
+            },
+            {
+                "subject": "0",
+                "subject_name": "Others"
+            },
+            {
+                "subject": "34",
+                "subject_name": "Zoology"
+            },
+            {
+                "subject": "35",
+                "subject_name": "Fisheries"
+            },
+            {
+                "subject": "36",
+                "subject_name": "Water Resources Engineering"
+            },
+            {
+                "subject": "37",
+                "subject_name": "Textile Engineering"
+            },
+            {
+                "subject": "38",
+                "subject_name": "Social Science"
+            },
+            {
+                "subject": "39",
+                "subject_name": "Physics"
+            },
+            {
+                "subject": "40",
+                "subject_name": "Philosophy"
+            },
+            {
+                "subject": "41",
+                "subject_name": "Physical Education"
+            },
+            {
+                "subject": "42",
+                "subject_name": "Nutrition & Food Science"
+            },
+            {
+                "subject": "43",
+                "subject_name": "Management Information System"
+            },
+            {
+                "subject": "126",
+                "subject_name": "Marketing"
+            },
+            {
+                "subject": "128",
+                "subject_name": "International Busines"
+            },
+            {
+                "subject": "129",
+                "subject_name": "Irrigation Engineering"
+            },
+            {
+                "subject": "130",
+                "subject_name": "Islamic Studies"
+            },
+            {
+                "subject": "136",
+                "subject_name": "Hydroinformatics"
+            },
+            {
+                "subject": "137",
+                "subject_name": "Hydrogeology"
+            },
+            {
+                "subject": "138",
+                "subject_name": "Marine"
+            },
+            {
+                "subject": "139",
+                "subject_name": "Mathematics"
+            },
+            {
+                "subject": "140",
+                "subject_name": "Medical Science"
+            },
+            {
+                "subject": "144",
+                "subject_name": "Geographic Information Systems And Remote Sensing"
+            },
+            {
+                "subject": "152",
+                "subject_name": "Project Management"
+            },
+            {
+                "subject": "153",
+                "subject_name": "Public Procurement Management"
+            },
+            {
+                "subject": "1",
+                "subject_name": "Science"
+            },
+            {
+                "subject": "122",
+                "subject_name": "River Morphology"
+            },
+            {
+                "subject": "123",
+                "subject_name": "River Engineering"
+            },
+            {
+                "subject": "124",
+                "subject_name": "River And Hydrological Engineering"
+            },
+            {
+                "subject": "125",
+                "subject_name": "Mass Communication"
+            },
+            {
+                "subject": "127",
+                "subject_name": "Islamic History & Culture"
+            },
+            {
+                "subject": "131",
+                "subject_name": "Japanese Language"
+            },
+            {
+                "subject": "132",
+                "subject_name": "Journalism"
+            },
+            {
+                "subject": "133",
+                "subject_name": "Library Science"
+            },
+            {
+                "subject": "134",
+                "subject_name": "Law & Public Administration"
+            },
+            {
+                "subject": "135",
+                "subject_name": "Spanish Language"
+            },
+            {
+                "subject": "141",
+                "subject_name": "Automobile Engineering"
+            },
+            {
+                "subject": "142",
+                "subject_name": "Mining"
+            },
+            {
+                "subject": "143",
+                "subject_name": "International Relations"
+            },
+            {
+                "subject": "145",
+                "subject_name": "Machine Tools Operation"
+            },
+            {
+                "subject": "146",
+                "subject_name": "Refrigeration & Air-Condition Tecnology"
+            },
+            {
+                "subject": "147",
+                "subject_name": "Personnel Management"
+            },
+            {
+                "subject": "148",
+                "subject_name": "Plant Pathology"
+            },
+            {
+                "subject": "149",
+                "subject_name": "Political Science"
+            },
+            {
+                "subject": "150",
+                "subject_name": "Power Engineering"
+            },
+            {
+                "subject": "151",
+                "subject_name": "Power Engineering"
+            },
+            {
+                "subject": "160",
+                "subject_name": "Civil & Environmental Engineering"
+            },
+            {
+                "subject": "70",
+                "subject_name": "Electrical Engineering"
+            },
+            {
+                "subject": "71",
+                "subject_name": "Surveying"
+            },
+            {
+                "subject": "72",
+                "subject_name": "Automobile Engineering"
+            },
+            {
+                "subject": "73",
+                "subject_name": "Law"
+            },
+            {
+                "subject": "76",
+                "subject_name": "Coastal Engineering"
+            },
+            {
+                "subject": "74",
+                "subject_name": "Structural Engineering"
+            },
+            {
+                "subject": "75",
+                "subject_name": "Civil Engineering"
+            },
+            {
+                "subject": "77",
+                "subject_name": "Industrial Arts"
+            },
+            {
+                "subject": "78",
+                "subject_name": "Computer"
+            },
+            {
+                "subject": "79",
+                "subject_name": "Computer Technology"
+            },
+            {
+                "subject": "80",
+                "subject_name": "Construction"
+            },
+            {
+                "subject": "81",
+                "subject_name": "Crop Botany"
+            },
+            {
+                "subject": "82",
+                "subject_name": "Disaster Management"
+            },
+            {
+                "subject": "84",
+                "subject_name": "Fine Arts"
+            },
+            {
+                "subject": "85",
+                "subject_name": "Driving"
+            },
+            {
+                "subject": "89",
+                "subject_name": "Farm Machinary"
+            },
+            {
+                "subject": "90",
+                "subject_name": "Finance Management"
+            },
+            {
+                "subject": "91",
+                "subject_name": "Fisheries Bio & Genetic"
+            },
+            {
+                "subject": "92",
+                "subject_name": "General  Science"
+            },
+            {
+                "subject": "93",
+                "subject_name": "General"
+            },
+            {
+                "subject": "94",
+                "subject_name": "General Machanics"
+            },
+            {
+                "subject": "95",
+                "subject_name": "Glass Technology"
+            },
+            {
+                "subject": "96",
+                "subject_name": "Hadis"
+            },
+            {
+                "subject": "97",
+                "subject_name": "Hydrologycal Engineer"
+            },
+            {
+                "subject": "98",
+                "subject_name": "Hydrology & Environment"
+            },
+            {
+                "subject": "99",
+                "subject_name": "Information And Communications Technology"
+            },
+            {
+                "subject": "100",
+                "subject_name": "Textile Diploma"
+            },
+            {
+                "subject": "103",
+                "subject_name": "Soil Science"
+            },
+            {
+                "subject": "106",
+                "subject_name": "Social Works"
+            },
+            {
+                "subject": "104",
+                "subject_name": "Water Resources Development"
+            },
+            {
+                "subject": "105",
+                "subject_name": "Weaving"
+            },
+            {
+                "subject": "110",
+                "subject_name": "Watershed Modelling"
+            },
+            {
+                "subject": "113",
+                "subject_name": "Tracing"
+            },
+            {
+                "subject": "115",
+                "subject_name": "Soil & Water Management"
+            },
+            {
+                "subject": "116",
+                "subject_name": "Seed Science Technology"
+            },
+            {
+                "subject": "118",
+                "subject_name": "Mechanics"
+            },
+            {
+                "subject": "155",
+                "subject_name": "Navigation"
+            },
+            {
+                "subject": "156",
+                "subject_name": "Chemistry"
+            },
+            {
+                "subject": "161",
+                "subject_name": "Photography"
+            }
+        ],
+        "edu_result": [
+            {
+                "result": "0",
+                "result_name": "Others"
+            },
+            {
+                "result": "1",
+                "result_name": "First Class"
+            },
+            {
+                "result": "2",
+                "result_name": "Second Class"
+            },
+            {
+                "result": "3",
+                "result_name": "Third Class"
+            },
+            {
+                "result": "20",
+                "result_name": "GPA"
+            }
+        ],
+        "edu_division": [
+            {
+                "result": "1",
+                "result_name": "First Class"
+            },
+            {
+                "result": "2",
+                "result_name": "Second Class"
+            },
+            {
+                "result": "3",
+                "result_name": "Third Class"
+            }
+        ],
+        "edu_scale": [
+            {
+                "value": "4",
+                "name": "Out of four"
+            },
+            {
+                "value": "5",
+                "name": "Out of five"
+            }
+        ],
+        "edu_result_type": [
+            {
+                "type": "Grade"
+            },
+            {
+                "type": "Division"
+            }
+        ],
+        "professional_certificate": [
+            {
+                "certification": "4",
+                "certification_name": "IEB & BCS"
+            },
+            {
+                "certification": "1",
+                "certification_name": "IEB"
+            },
+            {
+                "certification": "2",
+                "certification_name": "BCS"
+            },
+            {
+                "certification": "3",
+                "certification_name": "BMA"
+            }
+        ],
+        "language": [
+            {
+                "language_no": "1",
+                "language_name": "Bengali",
+                "language_name_bn": "বাংলা"
+            },
+            {
+                "language_no": "2",
+                "language_name": "English",
+                "language_name_bn": "ইংরেজি"
+            }
+        ],
+        "language_expertize": [
+            {
+                "value": "1",
+                "name": "Good"
+            },
+            {
+                "value": "2",
+                "name": "Excellent"
+            }
+        ]
+    },
+    "message": "master info"
+}

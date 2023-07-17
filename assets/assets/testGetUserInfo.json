@@ -1,0 +1,124 @@
+{
+    "success": true,
+    "data": {
+        "tabs": {
+            "personal": {
+                "applicant_no": "232468",
+                "user_no": "273916",
+                "applicant_name": "Ahmad shofiq",
+                "applicant_name_bn": "Ahmad shofiq",
+                "father_name": "Ali hasan",
+                "father_name_bn": "Ali hasan",
+                "mother_name": "Ferdausy",
+                "mother_name_bn": "ferdausy",
+                "nationality": "bangladeshi",
+                "national_id": "2759427589",
+                "birth_rn": "19978619451011492",
+                "birth_date": "2000-01-01 00:00:00",
+                "birth_division_gcode": "00",
+                "birth_district_gcode": "00",
+                "home_address": "pabna",
+                "home_division_gcode": "50",
+                "home_district_gcode": "04",
+                "home_upazila_gcode": "92",
+                "home_union_gcode": null,
+                "home_mauza_gcode": null,
+                "home_village_gcode": null,
+                "home_post_code": "6600",
+                "living_address": "dhaka",
+                "living_division_gcode": "50",
+                "living_district_gcode": "76",
+                "living_upazila_gcode": "UA",
+                "living_union_gcode": null,
+                "living_mauza_gcode": null,
+                "living_village_gcode": null,
+                "living_post_code": "1212",
+                "mobile_no": "01767404822",
+                "email": "ahmadshofiq3@gmail.com",
+                "driving_license": "6354789",
+                "blood_group": "A+",
+                "sex": "M",
+                "religion": "I",
+                "married": "M",
+                "occupation": "Engineer",
+                "extra_qualification": null,
+                "is_bwdb_staff": "Y",
+                "employee": null,
+                "is_computer_skilled": null,
+                "computer_skill": null,
+                "create_date": "2023-06-11 00:00:00",
+                "update_date": "2023-07-15 10:25:12"
+            },
+            "education": [
+                {
+                    "applicant_education_id": "631580",
+                    "applicant_no": "232468",
+                    "passing_year": "2018-01-01 00:00:00",
+                    "qualification": "16",
+                    "subject": "126",
+                    "result": "20",
+                    "marks": "3.16",
+                    "scale": "4",
+                    "university": "46",
+                    "institute": null,
+                    "institute_name": "Government Titumir College",
+                    "institute_name_bn": "Government Titumir College"
+                }
+            ],
+            "employement": [
+                {
+                    "applicant_employment_no": "82078",
+                    "applicant_no": "232468",
+                    "employer_name": "Ahmad shofiq k",
+                    "employer_name_bn": "shofiq",
+                    "employer_type": "1",
+                    "employer_type_name": "fd",
+                    "address": "pabne",
+                    "address_bn": "pabna",
+                    "designation": "ds",
+                    "designation_bn": "sdvg",
+                    "responsiblity": "Quantity Surveyor, Project planning, Maintenance construction works of different garments industry and Textile Mill (Kitting, Spinning, Dyeing, Woven Part), Supervision of piling work, Bill checking of Sub-Contractor.",
+                    "responsiblity_bn": "dasg",
+                    "effect_date": "2010-08-15 00:00:00",
+                    "expiry_date": "2012-12-25 00:00:00"
+                }
+            ],
+            "professional": [
+                {
+                    "applicant_member_no": "17562",
+                    "applicant_no": "232468",
+                    "society_no": "1",
+                    "membership_type": null,
+                    "membership_no": null,
+                    "effect_date": "2015-04-23 00:00:00",
+                    "expiry_date": "1970-01-01 00:00:00",
+                    "certificate_name": "Digital Content Development for Classroom"
+                }
+            ],
+            "training": [
+                {
+                    "applicant_training_no": "109160",
+                    "applicant_no": "232468",
+                    "training_title": "Industrial Management and Increase Process Efficiency by Waste Minimization",
+                    "training_title_bn": null,
+                    "institute_name": "DUET, GAZIPU khkugku R",
+                    "institute_name_bn": null,
+                    "effect_date": "2011-11-30 00:00:00",
+                    "expiry_date": "2011-12-01 00:00:00"
+                }
+            ],
+            "language": [
+                {
+                    "applicant_language_no": "361803",
+                    "applicant_no": "232468",
+                    "language_no": "2",
+                    "understanding": "2",
+                    "speaking": "1",
+                    "reading": "1",
+                    "writting": "1"
+                }
+            ]
+        }
+    },
+    "message": "profile data"
+}
