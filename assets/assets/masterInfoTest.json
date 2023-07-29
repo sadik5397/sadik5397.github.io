@@ -1782,6 +1782,40 @@
                 "value": "2",
                 "name": "Excellent"
             }
+        ],
+        "quota": [
+            {
+                "quota_no": "1",
+                "quota_name": "Merit"
+            },
+            {
+                "quota_no": "5",
+                "quota_name": "Freedom Fighter"
+            },
+            {
+                "quota_no": "7",
+                "quota_name": "Handicapped"
+            },
+            {
+                "quota_no": "8",
+                "quota_name": "Female"
+            },
+            {
+                "quota_no": "9",
+                "quota_name": "Orphan"
+            },
+            {
+                "quota_no": "10",
+                "quota_name": "Tribal"
+            },
+            {
+                "quota_no": "11",
+                "quota_name": "Ansar & VDP"
+            },
+            {
+                "quota_no": "12",
+                "quota_name": "General District"
+            }
         ]
     },
     "message": "master info"
