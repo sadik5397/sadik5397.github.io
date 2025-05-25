@@ -1,1 +1,1318 @@
-<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><link rel="icon" href="/favicon.png"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/><title>Inspire_Admin</title><script defer="defer" src="/js/chunk-vendors.55be38a1.js"></script><script defer="defer" src="/js/app.2c2669d7.js"></script><link href="/css/chunk-vendors.c73f9717.css" rel="stylesheet"><link href="/css/app.d52744ee.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but Inspire_Admin doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCV - Create a Job-Winning CV in just 60 Seconds!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #00d4ff;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            background: radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a0a 70%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="1" height="1" patternUnits="userSpaceOnUse"><path d="M 1 0 L 0 0 0 1" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        .hero-demo {
+            position: relative;
+            animation: fadeInRight 1s ease-out 0.6s both;
+        }
+
+        .demo-interface {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .demo-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .demo-title {
+            font-size: 1.1rem;
+            color: #00d4ff;
+        }
+
+        .demo-form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        .form-group input {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            padding: 12px;
+            color: white;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #00d4ff;
+        }
+
+        /* Sections */
+        .section {
+            padding: 6rem 0;
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            opacity: 0.7;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* How It Works */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .step {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.1);
+        }
+
+        .step-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 1.5rem;
+        }
+
+        .step h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #00d4ff;
+        }
+
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .feature h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+
+        /* Templates */
+        .templates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .template {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            aspect-ratio: 3/4;
+        }
+
+        .template:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+        }
+
+        .template-preview {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            font-size: 0.7rem;
+            color: #333;
+        }
+
+        .template-header {
+            border-bottom: 2px solid #00d4ff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .template-name {
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .template-contact {
+            font-size: 0.6rem;
+            opacity: 0.7;
+        }
+
+        .template-section {
+            margin-bottom: 0.5rem;
+        }
+
+        .template-section h4 {
+            font-size: 0.7rem;
+            color: #00d4ff;
+            margin-bottom: 0.2rem;
+        }
+
+        /* Pricing */
+        .pricing {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .price-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .price-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .price-card.featured {
+            border: 2px solid #00d4ff;
+            transform: scale(1.05);
+        }
+
+        .price-card.featured::before {
+            content: 'Most Popular';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #00d4ff;
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #00d4ff;
+            margin-bottom: 1rem;
+        }
+
+        .price-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .price-features li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        .testimonial-content {
+            font-style: italic;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .author-info h4 {
+            color: #00d4ff;
+            margin-bottom: 0.2rem;
+        }
+
+        .author-info p {
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        /* FAQ */
+        .faq {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+
+        .faq-question:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s, padding 0.3s;
+        }
+
+        .faq-answer.active {
+            max-height: 200px;
+            padding: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(255, 255, 255, 0.05);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section ul li a {
+            color: #cccccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section ul li a:hover {
+            color: #00d4ff;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            opacity: 0.7;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #00d4ff;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .steps,
+            .features,
+            .templates {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing {
+                grid-template-columns: 1fr;
+            }
+
+            .price-card.featured {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">QuickCV</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="cta-button">Get Started</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Create a Job-Winning CV<br>In just 60 Seconds!</h1>
+                    <p>Test Our AI-Powered CV Maker Today!</p>
+                    <div class="hero-cta">
+                        <a href="#" class="cta-button">Create CV Now</a>
+                        <a href="#" class="cta-button" style="background: transparent; border: 1px solid #00d4ff;">Watch Demo</a>
+                    </div>
+                </div>
+                <div class="hero-demo">
+                    <div class="demo-interface">
+                        <div class="demo-header">
+                            <div class="demo-title">Quick CV Builder</div>
+                            <div style="color: #00d4ff;">●</div>
+                        </div>
+                        <div class="demo-form">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="John Doe" value="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="john@example.com" value="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="tel" placeholder="+1 (555) 123-4567" value="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label>Job Title</label>
+                                <input type="text" placeholder="Software Developer" value="Software Developer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How QuickCV Works -->
+    <section class="section animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How QuickCV Works</h2>
+                <p class="section-subtitle">Create professional CVs with our AI-powered platform in three simple steps. No design experience required.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <h3>Enter Your Information</h3>
+                    <p>Simply fill out your personal details, work experience, and skills using our intuitive form.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <h3>Choose a Template</h3>
+                    <p>Select from our collection of professionally designed templates that suit your industry.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <h3>Download & Apply</h3>
+                    <p>Get your polished CV instantly and start applying to your dream jobs right away.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">✓</div>
+                    <h3>Download & Apply</h3>
+                    <p>Get your polished CV instantly and start applying to your dream jobs right away.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Powerful Features -->
+    <section id="features" class="section animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need to create professional resumes that get you hired. All-in-one platform.</p>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI-Powered Content</h3>
+                    <p>Our AI helps you write compelling bullet points and descriptions that highlight your achievements.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile Optimized</h3>
+                    <p>Create and edit your CV on any device. Our platform works seamlessly on desktop and mobile.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Generate professional CVs in seconds, not hours. Save time and focus on what matters most.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Professional Templates</h3>
+                    <p>Choose from dozens of professionally designed templates that make your CV stand out.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>ATS Optimized</h3>
+                    <p>All our templates are optimized for Applicant Tracking Systems to ensure your CV gets noticed.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💼</div>
+                    <h3>Industry Specific</h3>
+                    <p>Templates and content suggestions tailored to your specific industry and job role.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates -->
+    <section id="templates" class="section animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mind-blowing Layouts</h2>
+                <p class="section-subtitle">Choose from stunning pre-made layouts, designed and tested by our CV experts. All templates are ATS-friendly.</p>
+            </div>
+            <div class="templates">
+                <div class="template">
+                    <div class="template-preview">
+                        <div class="template-header">
+                            <div class="template-name">Sarah Johnson</div>
+                            <div class="template-contact">sarah@email.com | (555) 123-4567</div>
+                        </div>
+                        <div class="template-section">
+                            <h4>EXPERIENCE</h4>
+                            <p>Senior Developer<br>Tech Corp | 2020-Present</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>EDUCATION</h4>
+                            <p>Computer Science<br>University of Tech</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>SKILLS</h4>
+                            <p>JavaScript, React, Node.js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="template-preview">
+                        <div class="template-header">
+                            <div class="template-name">Michael Chen</div>
+                            <div class="template-contact">michael@email.com | (555) 987-6543</div>
+                        </div>
+                        <div class="template-section">
+                            <h4>PROFILE</h4>
+                            <p>Marketing professional with 5+ years experience...</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>EXPERIENCE</h4>
+                            <p>Marketing Manager<br>Global Inc | 2019-2024</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>SKILLS</h4>
+                            <p>Digital Marketing, SEO, Analytics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="template-preview">
+                        <div class="template-header">
+                            <div class="template-name">Emily Rodriguez</div>
+                            <div class="template-contact">emily@email.com | (555) 456-7890</div>
+                        </div>
+                        <div class="template-section">
+                            <h4>OBJECTIVE</h4>
+                            <p>Passionate designer seeking new opportunities...</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>EXPERIENCE</h4>
+                            <p>UI/UX Designer<br>Creative Agency | 2021-Present</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>EDUCATION</h4>
+                            <p>Design Studies<br>Art Institute</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="template-preview">
+                        <div class="template-header">
+                            <div class="template-name">David Wilson</div>
+                            <div class="template-contact">david@email.com | (555) 321-0987</div>
+                        </div>
+                        <div class="template-section">
+                            <h4>SUMMARY</h4>
+                            <p>Results-driven sales professional...</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>ACHIEVEMENTS</h4>
+                            <p>• Exceeded sales targets by 150%<br>• Led team of 12 representatives</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>SKILLS</h4>
+                            <p>Sales, Leadership, CRM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="template-preview">
+                        <div class="template-header">
+                            <div class="template-name">Lisa Thompson</div>
+                            <div class="template-contact">lisa@email.com | (555) 654-3210</div>
+                        </div>
+                        <div class="template-section">
+                            <h4>PROFILE</h4>
+                            <p>Experienced project manager with expertise...</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>CERTIFICATIONS</h4>
+                            <p>PMP Certified<br>Agile Scrum Master</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>EXPERIENCE</h4>
+                            <p>Project Manager<br>Tech Solutions | 2018-2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="template-preview">
+                        <div class="template-header">
+                            <div class="template-name">Alex Kumar</div>
+                            <div class="template-contact">alex@email.com | (555) 789-0123</div>
+                        </div>
+                        <div class="template-section">
+                            <h4>EDUCATION</h4>
+                            <p>MBA in Finance<br>Business School | 2022</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>EXPERIENCE</h4>
+                            <p>Financial Analyst<br>Bank Corp | 2022-Present</p>
+                        </div>
+                        <div class="template-section">
+                            <h4>SKILLS</h4>
+                            <p>Financial Modeling, Excel, SQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The right plans for the<br>powerful tool for right price</h2>
+            </div>
+            <div class="pricing">
+                <div class="price-card">
+                    <h3>Free Plan</h3>
+                    <div class="price">TK 0<span style="font-size: 1rem;">/mo</span></div>
+                    <ul class="price-features">
+                        <li>1 CV Template</li>
+                        <li>Basic Editor</li>
+                        <li>PDF Download</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#" class="cta-button">Get Started</a>
+                </div>
+                <div class="price-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">TK 119<span style="font-size: 1rem;">/mo</span></div>
+                    <ul class="price-features">
+                        <li>Unlimited CV Templates</li>
+                        <li>AI-Powered Content</li>
+                        <li>Multiple Formats</li>
+                        <li>Cover Letter Builder</li>
+                        <li>Priority Support</li>
+                        <li>ATS Optimization</li>
+                    </ul>
+                    <a href="#" class="cta-button">Choose Pro</a>
+                </div>
+                <div class="price-card">
+                    <h3>Premium</h3>
+                    <div class="price">TK 400<span style="font-size: 1rem;">/mo</span></div>
+                    <ul class="price-features">
+                        <li>Everything in Pro</li>
+                        <li>Personal Branding Kit</li>
+                        <li>LinkedIn Optimization</li>
+                        <li>Career Coaching</li>
+                        <li>Job Application Tracker</li>
+                        <li>White-label Access</li>
+                    </ul>
+                    <a href="#" class="cta-button">Go Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What People Say About QuickCV</h2>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        "QuickCV helped me land my dream job! The AI suggestions were spot-on and the templates look incredibly professional."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Software Engineer at Google</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        "I created my CV in under 5 minutes and got callbacks from 3 companies within a week. Amazing tool!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Marketing Manager at Meta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        "The ATS optimization feature is a game-changer. My CV now passes through all automated screening systems."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ER</div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>UX Designer at Adobe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        "Simple, fast, and effective. QuickCV saved me hours of formatting and helped me focus on content that matters."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DW</div>
+                        <div class="author-info">
+                            <h4>David Wilson</h4>
+                            <p>Sales Director at Salesforce</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section animate-on-scroll">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Questions we have answers<br>for your value question</h2>
+            </div>
+            <div class="faq">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What is QuickCV and how does it work?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>QuickCV is an AI-powered CV builder that helps you create professional resumes in minutes. Simply enter your information, choose a template, and our AI will help optimize your content for maximum impact with potential employers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is QuickCV free to use?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a free plan that includes basic CV creation with one template. For advanced features like AI-powered content, unlimited templates, and ATS optimization, we offer affordable Pro and Premium plans.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Are your templates ATS-friendly?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! All our templates are designed to be ATS (Applicant Tracking System) friendly, ensuring your CV passes through automated screening systems and reaches human recruiters.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can I edit my CV after creating it?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! You can edit, update, and customize your CV anytime. Your CV is saved in your account and you can make unlimited changes with our Pro and Premium plans.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What formats can I download my CV in?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can download your CV in PDF format with our free plan. Pro and Premium users can also download in Word, HTML, and other formats for maximum flexibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section animate-on-scroll" style="background: linear-gradient(135deg, #00d4ff, #0099cc); text-align: center;">
+        <div class="container">
+            <h2 class="section-title">Be Unique with QuickCV</h2>
+            <p class="section-subtitle" style="opacity: 1; color: white;">Join thousands of professionals who've landed their dream jobs with QuickCV</p>
+            <div style="margin-top: 2rem;">
+                <a href="#" class="cta-button" style="background: white; color: #0099cc; margin-right: 1rem;">Start Building Now</a>
+                <a href="#" class="cta-button" style="background: transparent; border: 2px solid white;">View Examples</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo" style="margin-bottom: 1rem;">QuickCV</div>
+                    <p>Create professional CVs that get you hired. Fast, easy, and effective.</p>
+                    <div class="social-links">
+                        <a href="#">f</a>
+                        <a href="#">t</a>
+                        <a href="#">in</a>
+                        <a href="#">ig</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">CV Examples</a></li>
+                        <li><a href="#">Cover Letters</a></li>
+                        <li><a href="#">Job Search Tips</a></li>
+                        <li><a href="#">Career Advice</a></li>
+                        <li><a href="#">Industry Guides</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 12px; margin-bottom: 2rem;">
+                <h3 style="color: #00d4ff; margin-bottom: 1rem;">Join Our Newsletter</h3>
+                <p style="margin-bottom: 1rem; opacity: 0.8;">Get the latest CV tips, job market insights, and career advice delivered to your inbox.</p>
+                <div style="display: flex; gap: 1rem; max-width: 400px;">
+                    <input type="email" placeholder="Enter your email" style="flex: 1; padding: 12px; border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; background: rgba(255,255,255,0.1); color: white;">
+                    <a href="#" class="cta-button">Subscribe</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 QuickCV. All rights reserved. | Privacy Policy | Terms of Service | Cookie Policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // FAQ toggle functionality
+        function toggleFaq(element) {
+            const answer = element.nextElementSibling;
+            const icon = element.querySelector('span:last-child');
+            
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-answer').forEach(item => {
+                if (item !== answer) {
+                    item.classList.remove('active');
+                    item.previousElementSibling.querySelector('span:last-child').textContent = '+';
+                }
+            });
+            
+            // Toggle current FAQ item
+            answer.classList.toggle('active');
+            icon.textContent = answer.classList.contains('active') ? '−' : '+';
+        }
+
+        // Header background on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(10, 10, 10, 0.95)';
+            } else {
+                header.style.background = 'rgba(10, 10, 10, 0.9)';
+            }
+        });
+
+        // Template hover effects
+        document.querySelectorAll('.template').forEach(template => {
+            template.addEventListener('mouseenter', () => {
+                template.style.transform = 'scale(1.05) rotateY(5deg)';
+                template.style.transition = 'all 0.3s ease';
+            });
+            
+            template.addEventListener('mouseleave', () => {
+                template.style.transform = 'scale(1) rotateY(0deg)';
+            });
+        });
+
+        // Floating animation for hero demo
+        const heroDemo = document.querySelector('.hero-demo');
+        if (heroDemo) {
+            let floatDirection = 1;
+            setInterval(() => {
+                const currentTransform = heroDemo.style.transform || 'translateY(0px)';
+                const currentY = parseFloat(currentTransform.match(/translateY\(([^)]+)\)/)?.[1] || 0);
+                
+                if (currentY >= 10) floatDirection = -1;
+                if (currentY <= -10) floatDirection = 1;
+                
+                heroDemo.style.transform = `translateY(${currentY + (floatDirection * 0.5)}px)`;
+            }, 100);
+        }
+
+        // Typing effect for hero title
+        const heroTitle = document.querySelector('.hero-text h1');
+        if (heroTitle) {
+            const originalText = heroTitle.textContent;
+            heroTitle.textContent = '';
+            
+            let i = 0;
+            const typeWriter = () => {
+                if (i < originalText.length) {
+                    heroTitle.textContent += originalText.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 50);
+                }
+            };
+            
+            setTimeout(typeWriter, 1000);
+        }
+
+        // Parallax effect for background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.hero');
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+
+        // Counter animation for stats (if we add them)
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            
+            const timer = setInterval(() => {
+                start += increment;
+                element.textContent = Math.floor(start);
+                
+                if (start >= target) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                }
+            }, 16);
+        }
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 0.5s ease-in-out';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Mobile menu toggle (basic implementation)
+        const createMobileMenu = () => {
+            if (window.innerWidth <= 768) {
+                const nav = document.querySelector('nav');
+                const navLinks = document.querySelector('.nav-links');
+                
+                if (!document.querySelector('.mobile-menu-btn')) {
+                    const menuBtn = document.createElement('button');
+                    menuBtn.className = 'mobile-menu-btn';
+                    menuBtn.innerHTML = '☰';
+                    menuBtn.style.cssText = `
+                        background: none;
+                        border: none;
+                        color: white;
+                        font-size: 1.5rem;
+                        cursor: pointer;
+                        display: block;
+                    `;
+                    
+                    menuBtn.addEventListener('click', () => {
+                        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+                        navLinks.style.flexDirection = 'column';
+                        navLinks.style.position = 'absolute';
+                        navLinks.style.top = '100%';
+                        navLinks.style.left = '0';
+                        navLinks.style.right = '0';
+                        navLinks.style.background = 'rgba(10, 10, 10, 0.95)';
+                        navLinks.style.padding = '1rem';
+                    });
+                    
+                    nav.appendChild(menuBtn);
+                }
+            }
+        };
+
+        window.addEventListener('resize', createMobileMenu);
+        createMobileMenu();
+    </script>
+</body>
+</html>
